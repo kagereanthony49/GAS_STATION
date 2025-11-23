@@ -1,0 +1,122 @@
+{
+  "fuelPrices": {
+    "pms": 4999,
+    "ago": 4650,
+    "bik": 4500
+  },
+  "employees": [
+    {
+      "id": "e1",
+      "name": "John Doe",
+      "phone": "0700000001",
+      "image": null,
+      "signature": null
+    },
+    {
+      "id": "e2",
+      "name": "Jane Smith",
+      "phone": "0700000002",
+      "image": null,
+      "signature": null
+    },
+    {
+      "id": "e3",
+      "name": "Alex Mwangi",
+      "phone": "0700000003",
+      "image": null,
+      "signature": null
+    },
+    {
+      "name": "mark emmanuel",
+      "phone": "0774445643",
+      "image": "",
+      "signature": "",
+      "id": "aad5ce67-ceb6-44a8-a293-41939ab0ed9a"
+    }
+  ],
+  "shifts": {
+    "day": [
+      "e1",
+      "e2"
+    ],
+    "night": [
+      "e3"
+    ]
+  },
+  "announcements": [
+    {
+      "id": "1763651921238",
+      "message": "hello, we have a meeting at 5pm",
+      "timestamp": "2025-11-20T15:18:41.238Z"
+    }
+  ],
+  "reports": [
+    {
+      "meterReadings": {
+        "pms": {
+          "m1": "1567843.756",
+          "m2": "1567945.793"
+        },
+        "ago": {
+          "m1": "6785493.675",
+          "m2": "6785595.966"
+        },
+        "bik": {
+          "m1": "685754.657",
+          "m2": "685795.796"
+        }
+      },
+      "mobilePayments": [
+        {
+          "network": "MTN",
+          "amount": 50000,
+          "transactionId": "237485748584"
+        },
+        {
+          "network": "MTN",
+          "amount": 60000,
+          "transactionId": "45636374"
+        },
+        {
+          "network": "AIRTEL",
+          "amount": 15000,
+          "transactionId": "475847848"
+        }
+      ],
+      "fuelPrices": {
+        "pms": 5500,
+        "ago": 5200,
+        "bik": 4800
+      },
+      "totals": {
+        "pms": 561203.5000000615,
+        "ago": 531913.2000010461,
+        "bik": 197467.19999983907,
+        "mobile": 125000,
+        "grand": 1415583.9000009466
+      },
+      "employee": {
+        "name": "anthony",
+        "image": ""
+      },
+      "timestamp": "2025-11-20T15:15:39.638Z",
+      "id": "1763651739650"
+    }
+  ],
+  "users": [
+    {
+      "id": "u_admin",
+      "email": "gasproadmin@gmail.com",
+      "name": "Admin",
+      "role": "admin",
+      "passwordHash": "$2a$10$EsH/fjOTP8eOiztMnbk8juGz5427VfjJTBO8ziIavAGesF2675LoO"
+    },
+    {
+      "id": "u_emp_demo",
+      "email": "employee@example.com",
+      "name": "Employee Demo",
+      "role": "employee",
+      "passwordHash": "$2a$10$8UxWqCQ2QIFooLxHHrrIeevL1ReqF/gPdDNVqa/f5gA.B8.QPAEhK"
+    }
+  ]
+}

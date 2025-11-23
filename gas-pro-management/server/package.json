@@ -1,0 +1,15 @@
+{
+  "name": "gas-pro-management-server",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "bcryptjs": "^2.4.3",
+    "socket.io": "^4.8.1"
+  }
+}

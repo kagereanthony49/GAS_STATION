@@ -1,0 +1,6 @@
+.price-changer-card h2 { color: var(--primary-color); margin-top: 0; }
+.fuel-price-item { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 0; border-bottom: 1px solid #eee; }
+.set-price-form { display: flex; gap: 0.5rem; }
+.set-price-form input { padding: 0.5rem; border: 1px solid #ccc; border-radius: 6px; }
+.set-price-form button { background-color: var(--secondary-color); color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; }
+.set-price-form button:hover { opacity: 0.9; }
